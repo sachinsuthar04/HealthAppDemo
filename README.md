@@ -47,6 +47,8 @@ common (can also be called as core)
 usecase
 bloc
 
+clean architecture structure image inside assets/flow.png
+
 ![clean architecture structure](assets/flow.png)
 
 
