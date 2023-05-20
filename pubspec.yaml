@@ -1,0 +1,75 @@
+name: testing_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  geolocator: ^8.2.0
+  geocoding: ^2.0.4
+  json_serializable: ^6.1.6
+  clean_framework:
+    path: ./mobile_dependencies/clean_framework
+
+flutter_intl:
+  enabled: true
+  class_name: LocalStrings
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  fluttertoast: ^8.1.2
+  flutter_svg: ^0.23.0+1
+  image: ^3.0.2
+  image_cropper: ^1.4.0
+  intl: ^0.17.0
+  google_fonts: ^2.0.0
+  connectivity_plus: ^3.0.2
+  shared_preferences: ^2.0.5
+  cached_network_image: ^3.1.0
+  progress_indicators: ^1.0.0
+  lottie: ^1.3.0
+  shamsi_date: ^1.0.0
+  scroll_to_index: ^2.1.0
+  flutter_cool_card_swiper: ^0.0.4
+#  flutter_date_picker_timeline: ^0.3.3
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+flutter:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/lottie/
+
+  #weather icons fonts
+  fonts:
+    - family: MonteStella
+      fonts:
+        - asset: fonts/MonteStella_A_Rg.ttf
+        - asset: fonts/MonteStella_A_Md.ttf
+        - asset: fonts/MonteStella_A_Bd.ttf
+        - asset: fonts/MonteStella_A_XBd.ttf
+        - asset: fonts/SFProText_Regular.ttf
+    - family: Dana
+      fonts:
+        - asset: assets/fonts/dana.ttf
+
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/nunito.ttf
+
+  uses-material-design: true
