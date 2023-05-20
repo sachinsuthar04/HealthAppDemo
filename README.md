@@ -11,6 +11,7 @@ That's not all we also learn how to show custom keyboard like when you are on em
 
 ### Doctor Consultant App Final UI
 
+Added screen shot and video of app
 
 **List Of Screens:**
 
@@ -29,9 +30,9 @@ I added flavour part for create build for
 
 command to run app
 
--> flutter run -t lib/main_dev.dart  --debug --flavor=dev
--> flutter run -t lib/main_qa.dart  --debug --flavor=qa
--> flutter run -t lib/main.dart  --debug --flavor=prod
+  flutter run -t lib/main_dev.dart  --debug --flavor=dev
+  flutter run -t lib/main_qa.dart  --debug --flavor=qa
+  flutter run -t lib/main.dart  --debug --flavor=prod
 
 ## clean architecture
 
@@ -46,7 +47,7 @@ common (can also be called as core)
 usecase
 bloc
 
-
+![clean architecture structure](assets/flow.png)
 
 
 
